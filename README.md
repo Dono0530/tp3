@@ -9,7 +9,7 @@
 # TP 3 : Travailler en équipe sur un depôt github distant
 
 # 1. Inviter des collaborateurs dans un dépôt personnel
-Ce tp a été réalisé en collaboration avec Donovan Prévost Groupe 12 pour représenter Porthos .
+Ce tp a été réalisé en collaboration avec Joshua Hermilly Groupe 12 pour représenter Athos .
 	Créer un nouveau dépôt tp3
 
 	Ajouter un collaborateur (paramètres → collaborateur → ajouter )
