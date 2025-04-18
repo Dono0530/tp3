@@ -10,14 +10,13 @@
 
 # 1. Inviter des collaborateurs dans un dépôt personnel
 Ce tp a été réalisé en collaboration avec Joshua Hermilly Groupe 12 pour représenter Athos .
-	Créer un nouveau dépôt tp3
+### Les étapes sont les suivantes :
 
-	Ajouter un collaborateur (paramètres → collaborateur → ajouter )
+ - Création d’un nouveau dépôt nommé tp3.
 
-Ajouter ce collaborateur.
+ - Ajout d’un collaborateur via les paramètres du dépôt (Paramètres → Collaborateurs → Ajouter).
 
-Cloner le projet dans le réprtoire courseGIT
-Commande : git clone git@github.com:M8-Yuriko/tp3.git
+ - Clonage du dépôt dans le répertoire courseGIT :
 
 
 ## Exercices :
@@ -28,21 +27,14 @@ Commande : git clone git@github.com:M8-Yuriko/tp3.git
 	3. Les deux : vérifiez que tous les dépôts sont bien synchronisés (ce qui est sur github correspond bien à ce que vous avez dans votre répertoire local).
 
 # 2. Développement d’un projet java en équipe
-Athos :
-        ◦ Copiez les fichiers suivants dans le répertoire tp3/src, validez-les dans le dépôt local et distant :
-        ◦ CryptoMarche.java
-        ◦ Portefeuille.java
-        ◦ TestCryptoMarche.java
+  - Se synhcroniser avec le repo github
 
-Modifier le fichier respectif à votre personnage et le push sur le répertoire. 
-Commande :`code Cryptomonnaie.java`
-          `git add CryptoMarche.java`
-          `git commit -m "Modification du CriptoMarche.java"`
+  - Compléter le fichier 'Portefeuille.java'
+
+  - Commandes :`code Portefeuille.java`
+          `git add Portefeuille.java`
+          `git commit -m "Modification de Portefeuille.java"`
           `git push`
-Mettre en commun 
-Commande : `git pull`
-
-Correction des fichiers.
 
 # 3. Gérer des nouvelles fonctionnalités à l’aide des branches
 ## Exercice :
@@ -67,14 +59,10 @@ Commande : `git checkout -b test`
 6. Tester avec ls, on doit retrouver le test.txt
 
 **2. Suppression du test.txt :  git rm test.txt →  git commit -m "test.txt supprimé".**
-**3. Créer une branche appelée AthosCoin  et créer votre crypto-monnaie**
-Commande : `git checkout -b AthosCoin`
-           `code AthosCoin.java`
-           `git add AthosCoin.java`
-           `git commit -m «Ajout de ma crypto-monnaie »`
+**3. Créer une branche appelée PorthosCoin  et créer votre crypto-monnaie**
+Commande : `git checkout -b PortosCoin`
+           `code PorthosCoin.java`
+           `git add PorthosCoin.java`
+           `git commit -m "Ajoute de la crypot PorthosCoin"`
            `git checkout main`
-           `git merge AthosCoin`
-           
-**4. Synchroniser les dépôt**
-`git push`
-`git pull`
+           `git merge PorthosCoin`
